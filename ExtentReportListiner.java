@@ -31,7 +31,7 @@ import com.aventstack.extentreports.reporter.configuration.Theme;
         String reportName="Extend_Report"+timeStamp+".html";
         		
 		//ExtentSparkReporter reporter=new ExtentSparkReporter(".\\reports\\extentReport"+System.currentTimeMillis()+".html");
-		
+		//Path
 		reporter=new ExtentSparkReporter(".\\src\\test\\java\\StartBasic1\\ExtentReport\\"+reportName);
 		
 		reporter.config().setDocumentTitle("Online Store API Automation");
